@@ -1,0 +1,49 @@
+.to-read-item {
+    position: relative;
+    height: 300px;
+    margin: auto;
+    margin-bottom: 40px;
+    width: 600px;
+}
+
+.image {
+    position: absolute;
+    width: 95%;
+    height: 80%;
+    top: 0;
+    left: 0;
+    box-shadow: 0 0 16px 5px #bfbfbf;
+    z-index: 1;
+}
+
+.info {
+    position: absolute;
+    width: 95%;
+    height: 80%;
+    bottom: 0;
+    right: 0;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: flex-end;
+    box-shadow: 0 0 16px 5px #bfbfbf;
+    background-color: #fff;
+}
+
+.badge {
+    background-image: linear-gradient(90deg, #d0ff41 25%, #64f991 50%, #6bd6ff 75%);
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.info-content {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}

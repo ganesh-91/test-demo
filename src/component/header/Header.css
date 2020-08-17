@@ -1,0 +1,25 @@
+  .header {
+    min-height: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 22px;
+  }
+
+  .nav {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    margin-top: 24px;
+  }
+
+
+  .nav-item {
+    padding: 6px 32px;
+    line-height: 1;
+  }
+
+  .nav-item.active {
+    border: 4px solid #fff;
+  }

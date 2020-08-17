@@ -1,0 +1,12 @@
+.to-read-list {
+    padding-top: 30px;
+    overflow: auto;
+    width: 100%;
+    height: 100%;
+}
+
+.to-read-list-wrapper {
+    overflow: auto;
+    height: 100%;
+    margin: auto;
+}
